@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <header>
+        <h1>Availability & Contact Info</h1>
+        <nav>
+            <ul>
+                <li><a href="/dogSitter/index.html">Home</a></li>
+                <li><a href="/dogSitter/about-me/about-me.html">About Me</a></li>
+                <li><a href="./services/services.html">Services</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    
+    <nav>
+        <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FNew_York&title=Availability%20Calendar&showTabs=0&showPrint=0&showCalendars=0&src=cjdqM2J1OWRjNDQ1cWNvcW04ZHYwaDJqdjBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%23cc7700"
+            style="border:solid 1px #777" 
+            width="800" 
+            height="600" 
+            frameborder="0" 
+            scrolling="no">
+        </iframe>    
+    </nav>
+
+    <div>
+        <p>Feel free to contact me for a meet and greet to see my home and yard to make sure you're comfortable leaving your dog with me!</p>   
+            <form action="/action_page.php" method="get" class="form">
+                <fieldset>
+                <legend>Pet Sitting Request Form</legend>
+                    <label for="fname">First Name:</label><br>
+                    <input type="text" id="fname" name="fname"><br>
+                    <label for="lname">Last Name:</label><br>
+                    <input type="text" id="lname" name="lname"><br>
+                    <label for="dropoff">Drop Off Datee:</label><br>
+                    <input type="date" id="dropoff" name="dropoff"><br>
+                    <label for="pickup">Pick Up Date:</label><br>
+                    <input type="date" id="pickup" name="pickup"><br>
+                    <label for="phone">Phone Number:</label><br>
+                    <input type="tel" id="phone" name="phone"><br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email"><br><br>                    
+                    <input type="submit" formmethod="post" value="Submit">
+                </fieldset>
+            </form>
+    </div>
+</body>
+</html>
